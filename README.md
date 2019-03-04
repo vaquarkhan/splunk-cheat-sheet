@@ -1,6 +1,8 @@
 # Splunk-cheat-sheet
 
         index=<Your-Index-Name>_* cf_app_name=*<Appname>* <anysearch key>
+        
+         index="<index>_*" sourcetype="cf:logmessage" cf_app_name="<APP-NAME>*" cf_space_name="*" source_type="APP/PROC/WEB"   "msg.logLevel"=INFO "*<keyword for search>*"
 
 
 ![Alt Text](https://www.learnsplunk.com/uploads/2/7/1/9/2719363/7109108_orig.png)
